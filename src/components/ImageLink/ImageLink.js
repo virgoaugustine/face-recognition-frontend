@@ -4,7 +4,7 @@ import './ImageLink.css';
 const ImageLink = ({onInputChange, onDetectClick}) => {
     return (
         <div>
-            <p className="f3">Give this face detection app a try</p>
+            <p className="f3">Enter image link below</p>
             <div className="center">
                 <div className="center form pa4 br3 shadow-5 pointer">
                     <input className="f4 pa2 w-70 center" type="text" onChange={onInputChange}/>
