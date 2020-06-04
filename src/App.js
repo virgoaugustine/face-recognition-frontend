@@ -68,6 +68,7 @@ class App extends Component {
     })
     .then(response => response.json())
     .then(response => {
+      console.log(response)
       if(typeof response != typeof 'hello'){
         // update entry count in db
       fetch(`${baseURL}/entry`, {
